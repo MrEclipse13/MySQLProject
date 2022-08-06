@@ -1,0 +1,24 @@
+student:9
+professor:3
+course:6
+grade:18
+
+t1:c1/4 :s1/4/7: s2/6/8
+t2:c2/6 :s2/5/8: s3/4/9
+t3:c3/5 :s3/6/9: s1/5/7
+
+grade:
+5=A :6 :1111
+4=B :4 :1111
+3=c :5 :11111
+2=d :2 :11
+1=f :1 :1
+
+student: id, name
+professor: id, name
+course: id, name, Sid, Pid
+grade: Cid, Pid, Sid, Grade
+
+FK:
+Courses: PID: professors/ SID: students
+Grades: CID, CPID, CSID: courses

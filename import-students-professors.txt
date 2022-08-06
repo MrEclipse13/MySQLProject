@@ -1,0 +1,50 @@
+use bottega_sql;
+
+INSERT INTO students(student_name)
+values ("student_1");
+
+
+INSERT INTO students(student_name)
+values ("student_2");
+
+
+INSERT INTO students(student_name)
+values ("student_3");
+
+
+INSERT INTO students(student_name)
+values ("student_4");
+
+
+INSERT INTO students(student_name)
+values ("student_5");
+
+
+INSERT INTO students(student_name)
+values ("student_6");
+
+
+INSERT INTO students(student_name)
+values ("student_7");
+
+
+INSERT INTO students(student_name)
+values ("student_8");
+
+
+INSERT INTO students(student_name)
+values ("student_9");
+
+
+INSERT INTO professors(professor_name)
+values ("professor_1");
+
+
+INSERT INTO professors(professor_name)
+values ("professor_2");
+
+
+INSERT INTO professors(professor_name)
+values ("professor_3");
+
+

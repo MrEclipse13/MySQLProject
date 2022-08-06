@@ -1,0 +1,14 @@
+use bottega_sql;
+
+use bottega_sql;
+
+SELECT AVG(g.grade) as 'Grade AVG'
+FROM
+(SELECT course_name AS 'Course'
+From courses c
+Group BY c.course_name)
+JOIN grades g
+ON c.course_id = g.course_grade_id
+ORDER BY g.grade ASC;
+
+

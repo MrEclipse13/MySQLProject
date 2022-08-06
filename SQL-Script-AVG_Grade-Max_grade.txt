@@ -1,0 +1,39 @@
+use bottega_sql;
+
+SELECT AVG(grade)
+FROM grades
+WHERE professor_grade_id = '1';
+
+SELECT AVG(grade)
+FROM grades
+WHERE professor_grade_id = '2';
+
+SELECT AVG(grade)
+FROM grades
+WHERE professor_grade_id = '3';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '1';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '2';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '3';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '4';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '5';
+
+SELECT MAX(grade)
+FROM grades
+WHERE student_grade_id = '6';
+
+

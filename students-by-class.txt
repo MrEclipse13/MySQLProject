@@ -1,0 +1,55 @@
+use bottega_sql;
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_1';
+
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_2';
+
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_3';
+
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_4';
+
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_5';
+
+
+SELECT 
+	s.student_name AS 'Student',
+	c.course_name AS 'Course'
+FROM students s 
+JOIN courses c 
+ON s.student_id = c.course_student_id
+WHERE c.course_name = 'course_6';
+
